@@ -26,6 +26,7 @@ const Work = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 position-relative">
+          <h2 className='text-center'>My work</h2>
             <div className="about-img-box">
               <img src={picture} alt="" className="img-fluid" />
             </div>
@@ -44,13 +45,13 @@ const Work = () => {
         <h2 className='text-center'>Other works</h2>
           <div className='row '>
             <div className='col-sm d-flex justify-content-around'>
-              <WorkCard pic={card1} title="Crypto GUI" desc="Crpyto Program written in JavaFX" />
+              <WorkCard pic={card1} title="Crypto GUI" desc="Crpyto GUI connect to bx.com written in JavaFX" />
             </div>
             <div className='col-sm d-flex justify-content-around'>
-              <WorkCard pic={card2} title="Oscillo GUI" desc="Controlling Oscilloscope with Tkinter" />
+              <WorkCard pic={card2} title="Oscillo GUI" desc="GUI Controlling Oscilloscope with Python/Tkinter" />
             </div>
             <div className='col-sm d-flex justify-content-around'>
-              <WorkCard pic={card3} title="Bookstore" desc="Bookstore Webapp on Django" />
+              <WorkCard pic={card3} title="Bookstore" desc="Somsri's Bookstore web application written in Django" />
             </div>
           </div>
       </div>

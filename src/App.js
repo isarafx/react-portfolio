@@ -25,11 +25,7 @@ function App() {
       <br />
       <hr className="mt-1 mb-1"/>
       <br />
-      <ProgressStep />
-      <br />
-      <hr className="mt-1 mb-1"/>
-      <br />
-      <CarouselFade />
+      <CarouselFade /> {/* Internship */}
       <br />
       <hr className="mt-1 mb-1"/>
       <br />

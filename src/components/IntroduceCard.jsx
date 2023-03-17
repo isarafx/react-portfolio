@@ -25,7 +25,7 @@ const IntroduceCard = () => {
       backDelay: 100
     });
     const program = new Typed(lang.current, {
-        strings: ['<span style="background-color: #4584b6; color: yellow;"><b>Python</b></span>',
+        strings: ['<span style="color: #4584b6;"><b>Py</b></span><span style="color: yellow;"><b>thon</b></span>',
                 '<span style="background-color: #61DBFB; color: #FFFFFF;"><b>React</b></span>',
                 '<span style="color: #092e20"><b>Django</b></span>',
                 '<span style="color: #069487"><b>FastAPI</b></span>'], // Strings to display
