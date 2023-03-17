@@ -17,19 +17,18 @@ const AboutMe = () => {
     <div className="overflow-hidden">
         <div className="container content-space-t-4 content-space-b-3">
             <div className="row justify-content-lg-between align-items-md-center">
-            <div className="col-md-6 system">
-                <div >
-                    <div>
-                        <h2>System & Tool</h2>
-                        <p><b>Operation System</b>: Windows, MacOS</p>
-                        <p><b>Language</b>: Python, HTML, CSS, JS</p>
-                        <p><b>Database</b>: MongoDB, PostgresQL</p>
-                        <p><b>Framework</b>: React, Django, FastAPI</p>
-                        <p><b>Others</b>: GIT, Docker, Linux command</p>
+                <div className="col-md-6 system">
+                    <div >
+                        <div>
+                            <h2>System & Tool</h2>
+                            <p><b>Operation System</b>: Windows, MacOS</p>
+                            <p><b>Language</b>: Python, HTML, CSS, JS</p>
+                            <p><b>Database</b>: MongoDB, PostgresQL</p>
+                            <p><b>Framework</b>: React, Django, FastAPI</p>
+                            <p><b>Others</b>: GIT, Docker, Linux command</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
                 <div className="col-md-6 col-lg-5 mb-7 mb-md-0 stack container">
                     
                     <div class="row ms-auto">
