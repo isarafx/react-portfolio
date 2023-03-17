@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { motion } from "framer-motion"
+import IntroduceCard from './components/IntroduceCard';
+import Navigationbar from './components/Navigationbar';
+import { Parallax, ParallaxLayer} from '@react-spring/parallax'
+import AboutMe from './components/AboutMe';
+import CarouselFade from './components/CarouselFade';
+import ProgressStep from './components/ProgressStep';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navigationbar />
+      <br />
+      <IntroduceCard />
+      <br/ >
+      <hr className="mt-1 mb-1"/>
+      <br />
+      <AboutMe />
+      <br />
+      <hr className="mt-1 mb-1"/>
+      <br />
+      <CarouselFade />
+      <br />
+      <hr className="mt-1 mb-1"/>
+      <br />
+      <ProgressStep />
+      <br />
+      <hr className="mt-1 mb-1"/>
+      <br />
+
     </div>
   );
 }
