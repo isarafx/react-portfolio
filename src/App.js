@@ -6,6 +6,7 @@ import { Parallax, ParallaxLayer} from '@react-spring/parallax'
 import AboutMe from './components/AboutMe';
 import CarouselFade from './components/CarouselFade';
 import ProgressStep from './components/ProgressStep';
+import Work from './components/Work';
 function App() {
   return (
     <div>
@@ -19,11 +20,16 @@ function App() {
       <br />
       <hr className="mt-1 mb-1"/>
       <br />
-      <CarouselFade />
+      <Work />
+      
       <br />
       <hr className="mt-1 mb-1"/>
       <br />
       <ProgressStep />
+      <br />
+      <hr className="mt-1 mb-1"/>
+      <br />
+      <CarouselFade />
       <br />
       <hr className="mt-1 mb-1"/>
       <br />
