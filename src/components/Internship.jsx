@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+
 const Internship = () => {
 
     const detail = {
@@ -43,8 +44,8 @@ const Internship = () => {
   return (
     <div className="container  content-space-t-4 content-space-b-3">
         <div class="row">
-            <div class="col-4">
-                <ul className='tagmargin'>
+            <div class="col-md-6">
+                <ul className='tagmargin border-start'>
                     <a className='tagwork' href='javascript:;' onClick={()=>{setInfo(detail[1])}}><li className='tagwork'>about:me</li></a>
                     
                     <a className='tagwork' href='javascript:;' onClick={()=>{setInfo(detail[2])}}><li className='tagwork'>Intership at Stackpython</li></a>
@@ -53,7 +54,8 @@ const Internship = () => {
                     
                 </ul>
             </div>
-            <div class="col-8">
+            
+            <div class="col-md-6">
                 <h2>{info.title}</h2>
                 <h3>{info.date}</h3>
                 {

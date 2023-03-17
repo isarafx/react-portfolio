@@ -9,10 +9,11 @@ import pic2 from '../assets/2.png'
 import pic3 from '../assets/3.png'
 import pic4 from '../assets/4.png'
 import pic5 from '../assets/5.png'
+import Fade from 'react-reveal/Fade';
 
 const images = [pic2, pic1, pic3, pic4, pic5]
 const IntroduceCard = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(2);
   const el = useRef(null);
   const lang = useRef(null);
   useEffect(() => {
@@ -68,7 +69,7 @@ const IntroduceCard = () => {
             {/* End Col */}
             <div className="col-md-6">
                 <div className="position-relative">
-                <img className="img-fluid rounded-2" src={images[currentIndex]} alt="Image Description" />
+                <Fade><img className="img-fluid rounded-2" src={images[currentIndex]} alt="Image Description" /></Fade>
                 <div className="position-absolute top-0 end-0 w-100 h-100 bg-soft-primary rounded-2 zi-n1 mt-5 me-n5" />
                 </div>
             </div>

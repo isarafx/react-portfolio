@@ -9,29 +9,39 @@ import ProgressStep from './components/ProgressStep';
 import Footer from './components/Footer';
 import Work from './components/Work';
 import Internship from './components/Internship';
+import Fade from 'react-reveal/Fade'
 function App() {
   return (
     <div>
       <Navigationbar />
       <br />
+      <Fade>
       <IntroduceCard />
+      </Fade>
       <br/ >
-      <hr className="mt-1 mb-1"/>
       <br />
-      <AboutMe />
-      <br />
-      <hr className="mt-1 mb-1"/>
-      <br />
-      <Work />
-      
-      <br />
-      <hr className="mt-1 mb-1"/>
-      <br />
+      <Fade>
       <Internship />
+      </Fade>
       <br />
       <hr className="mt-1 mb-1"/>
       <br />
+      <Fade>
+      
+      <AboutMe />
+      </Fade>
+      <br />
+      <hr className="mt-1 mb-1"/>
+      <br />
+      <Fade>
+        <Work />
+      </Fade>
+      <br />
+      <hr className="mt-1 mb-1"/>
+      <br />
+      <Fade>
       <CarouselFade /> {/* Internship */}
+      </Fade>
       <br />
       <hr className="mt-1 mb-1"/>
       <br />

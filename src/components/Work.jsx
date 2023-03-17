@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import card1 from '../assets/card1.png'
 import card2 from '../assets/card2.png'
 import card3 from '../assets/card3.png'
+import Fade from 'react-reveal/Fade'
 
 
 const Work = () => {
@@ -40,7 +41,8 @@ const Work = () => {
       </div>
     </section>
         <br />
-        <div className="container content-space-t-4 content-space-b-3">
+      <Fade>
+      <div className="container content-space-t-4 content-space-b-3">
         <h2 className='text-center'>Other works</h2>
           <div className='row '>
             <div className='col-sm d-flex justify-content-around'>
@@ -57,6 +59,7 @@ const Work = () => {
             </div>
           </div>
       </div>
+      </Fade>
     
 
     </>
