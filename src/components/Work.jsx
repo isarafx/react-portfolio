@@ -23,10 +23,10 @@ const Work = () => {
   return (
     <>
     <section className="section-about">
-      <div className="container">
+      <div  className="container">
         <div className="row">
           <div className="col-sm-12 position-relative">
-          <h2 className='text-center'>My work</h2>
+          <h2 className='text-center'>My classwork</h2>
             <div className="about-img-box">
               <img src={picture} alt="" className="img-fluid" />
             </div>
@@ -49,6 +49,9 @@ const Work = () => {
             </div>
             <div className='col-sm d-flex justify-content-around'>
               <WorkCard pic={card2} title="Oscillo GUI" desc="GUI Controlling Oscilloscope with Python/Tkinter" />
+            </div>
+            <div className='col-sm d-flex justify-content-around'>
+              <WorkCard pic={card3} title="Bookstore" desc="Somsri's Bookstore web application written in Django" />
             </div>
             <div className='col-sm d-flex justify-content-around'>
               <WorkCard pic={card3} title="Bookstore" desc="Somsri's Bookstore web application written in Django" />
