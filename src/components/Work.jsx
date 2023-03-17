@@ -16,7 +16,6 @@ const Work = () => {
         <Card.Text>
           {desc}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
   );

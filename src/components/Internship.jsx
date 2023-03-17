@@ -8,7 +8,9 @@ const Internship = () => {
             date:"Sep 1999 - Present",
             responsibility:
             ["INFP Virgo",
-                "Hi I'm Isara Kunudomchaiwat, born and raised in Bangkok Thailand I'm 23 INFP I've broad knowledge especially on IOT but currently interesting in web developments. I used python for a long time now It's my main programing language but I don't mind leaning new things"],
+                "Hi I'm Isara Kunudomchaiwat, born and raised in Bangkok Thailand I'm 23 INFP I've broad knowledge especially on IOT but currently interesting in web developments. I used python for a long time now It's my main programing language but I don't mind leaning new things",
+            "-Isara"
+            ],
             tag:["Guitarist", "chess", "Basic electrical", "Cooking", "Seafood allergic", "INFP", "Virgo"],
         },
         2:{
@@ -39,19 +41,19 @@ const Internship = () => {
     }
     const [info, setInfo] = useState(detail[1])
   return (
-    <div className="container border content-space-t-4 content-space-b-3">
+    <div className="container  content-space-t-4 content-space-b-3">
         <div class="row">
-            <div class="col-3 border">
-                <ul>
-                    <a href='javascript:;' onClick={()=>{setInfo(detail[1])}}><li>about:me</li></a>
-                    <hr />
-                    <a href='javascript:;' onClick={()=>{setInfo(detail[2])}}><li>Intership at Stackpython</li></a>
-                    <hr />
-                    <a href='javascript:;' onClick={()=>{setInfo(detail[3])}}><li>Freelance with Stackpython Team</li></a>
-                    <hr />
+            <div class="col-4">
+                <ul className='tagmargin'>
+                    <a className='tagwork' href='javascript:;' onClick={()=>{setInfo(detail[1])}}><li className='tagwork'>about:me</li></a>
+                    
+                    <a className='tagwork' href='javascript:;' onClick={()=>{setInfo(detail[2])}}><li className='tagwork'>Intership at Stackpython</li></a>
+                   
+                    <a className='tagwork' href='javascript:;' onClick={()=>{setInfo(detail[3])}}><li className='tagwork'>Freelance with Stackpython Team</li></a>
+                    
                 </ul>
             </div>
-            <div class="col-9 border">
+            <div class="col-8">
                 <h2>{info.title}</h2>
                 <h3>{info.date}</h3>
                 {
@@ -63,7 +65,7 @@ const Internship = () => {
                 {
                 info.tag.map((item, index)=>{
                     return  <>
-                                { (index ? ', ' : '')  }<span className="tags" className="tags" key={index}>{item}</span> 
+                                { (index ? ' ' : '')  }<span class="badge bg-secondary shadow-secondary" key={index} >{item}</span> 
                             </>
                 } )
                 }
