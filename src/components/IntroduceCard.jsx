@@ -3,6 +3,7 @@ import { useEffect, useState, useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPython } from "@fortawesome/free-brands-svg-icons"
 import { faReact } from "@fortawesome/free-brands-svg-icons"
+import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
 import Typed from "typed.js";
 import pic1 from '../assets/1.png'
 import pic2 from '../assets/2.png'

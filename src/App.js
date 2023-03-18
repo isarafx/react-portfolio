@@ -13,39 +13,30 @@ import Fade from 'react-reveal/Fade'
 function App() {
   return (
     <div>
-      <Navigationbar />
+        <Navigationbar />
       <br />
       <Fade>
-      <IntroduceCard />
+        <IntroduceCard />
       </Fade>
       <br/ >
       <br />
       <Fade>
-      <Internship />
+        <Internship />
       </Fade>
-      <br />
-      <hr className="mt-1 mb-1"/>
-      <br />
+      <br /> <hr className="mt-1 mb-1"/> <br />
       <Fade>
-      
-      <AboutMe />
+        <AboutMe />
       </Fade>
-      <br />
-      <hr className="mt-1 mb-1"/>
-      <br />
+      <br /> <hr className="mt-1 mb-1"/> <br />
       <Fade>
         <Work />
       </Fade>
-      <br />
-      <hr className="mt-1 mb-1"/>
-      <br />
+      <br /> <hr className="mt-1 mb-1"/> <br />
       <Fade>
-      <CarouselFade /> {/* Internship */}
+        <CarouselFade /> {/* Internship */}
       </Fade>
-      <br />
-      <hr className="mt-1 mb-1"/>
-      <br />
-      <Footer />
+      <br /> <hr className="mt-1 mb-1"/> <br />
+        <Footer />
 
     </div>
   );

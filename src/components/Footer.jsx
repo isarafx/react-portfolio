@@ -8,10 +8,8 @@ const Footer = () => {
         <p className='TearFooter'><span><FontAwesomeIcon icon={faHeart} /> Made with tear and coffee by Isara K.</span>
             <span>
                 <div className='FooterIcon'>
-                    <FontAwesomeIcon className='fa-xl' icon={faMobile} />    {'  '}
-                    <FontAwesomeIcon className='fa-xl' icon={faMailBulk} />    {'  '}
-                    <FontAwesomeIcon className='fa-xl' icon={faLinkedin} />    {'  '}
-                    <FontAwesomeIcon className='fa-xl' icon={faGithub} />  
+                    <a href="https://www.linkedin.com/in/isarawn/" target="_blank"><FontAwesomeIcon className='fa-xl' icon={faLinkedin} /> </a>   {'  '}
+                    <a href="https://github.com/isarafx" target="_blank"><FontAwesomeIcon className='fa-xl' icon={faGithub} /> </a> 
                 </div>
             </span>
         </p>
