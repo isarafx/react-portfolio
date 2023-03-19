@@ -9,23 +9,9 @@ import Fade from 'react-reveal/Fade'
 
 
 const Work = () => {
-  const WorkCard = ({pic, title, desc}) => (
-    // <Card style={{ width: '18rem' }}>
-    //   <div className="card card-portfolio minorwork">
-    //     <div className="card-img border">
-    //       <img src={pic} className="img-fluid" alt="Image" />
-    //     </div>
-      
-    //     <Card.Body>
-    //       <Card.Title>{title}</Card.Title>
-    //       <Card.Text>
-    //         {desc}
-    //       </Card.Text>
-    //     </Card.Body>
-    //   </div>
-    // </Card>
+  const WorkCard = ({pic, title, desc, href}) => (
       <div className="card card-portfolio minorwork border-0 shadow-sm card-hover">
-        <a href='google.com' target="_blank">
+        <a href={href} target="_blank">
           <div className=" border">
             <img src={pic} className="img-fluid" alt="Card image" />
           </div>
@@ -43,7 +29,7 @@ const Work = () => {
         <div className="row">
           <div className="col-sm-12 position-relative">
           <h2 className='text-center workcard'>My classwork</h2>
-            <a href='google.com' target="_blank">
+            <a href='/work/covfefe' target="_blank">
               <div className="card card-portfolio shadow-lg ">
                 <div className="card-img">
                   <img src={picture} className="img-fluid" alt="Image" />
@@ -67,16 +53,16 @@ const Work = () => {
         <h2 className='text-center workcard'>Other works</h2>
           <div className='row'>
             <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
-              <WorkCard pic={card1} title="Crypto GUI" desc="Crpyto GUI connect to bx.com written in JavaFX" />
+              <WorkCard pic={card1} title="Crypto GUI" desc="Crpyto GUI connect to bx.com written in JavaFX" href="/work/crypto"/>
             </div>
             <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
-              <WorkCard pic={card2} title="Oscillo GUI" desc="GUI Controlling Oscilloscope with Python/Tkinter" />
+              <WorkCard pic={card2} title="Oscillo GUI" desc="GUI Controlling Oscilloscope with Python/Tkinter" href="/work/oscilloscope" />
             </div>
             <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
-              <WorkCard pic={card3} title="Bookstore" desc="Somsri's Bookstore web application written in Django" />
+              <WorkCard pic={card3} title="Bookstore" desc="Somsri's Bookstore web application written in Django" href="/work/somsri" />
             </div>
             <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
-              <WorkCard pic={card3} title="ETC" desc="Somsri's Bookstore web application written in Django" />
+              <WorkCard pic={card3} title="ETC" desc="Somsri's Bookstore web application written in Django" href="/work/portfolio" />
             </div>
           </div>
       </div>

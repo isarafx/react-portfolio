@@ -7,18 +7,45 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider, Route, Link, } from "react-router-dom";
 import Navigationbar from './components/Navigationbar';
 import Footer from './components/Footer';
+import AboutMe from './components/AboutMe';
+import Oscilloscope from './components/post/Oscilloscope';
+import PortfolioSite from './components/post/PortfolioSite';
+import Covfefe from './components/post/Covfefe';
+import SomsriBook from './components/post/SomsriBook';
+import CryptoGUI from './components/post/CryptoGUI';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createBrowserRouter([
+  
   {
-    path: "/",
+    path: "aboutme",
+    element: <AboutMe />,
+  },
+  {
+    path: "/work/covfefe",
+    element: <Covfefe />,
+  },
+  {
+    path: "/work/crypto",
+    element: <CryptoGUI />,
+  },
+  {
+    path: "/work/oscilloscope",
+    element: <Oscilloscope />,
+  },
+  {
+    path: "/work/somsri",
+    element: <SomsriBook />,
+  },
+  {
+    path: "/work/portfolio",
+    element: <AboutMe />,
+  },
+  {
+    path: "*",
     element: (
       <App />
     ),
-  },
-  {
-    path: "about",
-    element: <App />,
   },
 ]);
 
