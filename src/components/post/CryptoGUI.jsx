@@ -1,10 +1,11 @@
 import React from 'react'
+import Navigationbar from '../Navigationbar'
 
 const CryptoGUI = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Navigationbar />
+    </>
   )
 }
 

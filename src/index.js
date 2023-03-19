@@ -4,9 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import { createBrowserRouter, RouterProvider, Route, Link, } from "react-router-dom";
-import Navigationbar from './components/Navigationbar';
-import Footer from './components/Footer';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutMe from './components/AboutMe';
 import Oscilloscope from './components/post/Oscilloscope';
 import PortfolioSite from './components/post/PortfolioSite';
@@ -39,7 +37,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/work/portfolio",
-    element: <AboutMe />,
+    element: <PortfolioSite />,
   },
   {
     path: "*",
@@ -53,9 +51,7 @@ const router = createBrowserRouter([
 
 root.render(
   <React.StrictMode>
-    <Navigationbar />
       <RouterProvider router={router} />
-    <Footer />
   </React.StrictMode>
 );
 

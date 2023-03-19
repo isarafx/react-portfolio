@@ -1,5 +1,4 @@
 import './App.css';
-import { motion } from "framer-motion"
 import IntroduceCard from './components/index/IntroduceCard';
 import Navigationbar from './components/Navigationbar';
 import Mystack from './components/index/MyStack';
@@ -11,6 +10,7 @@ import Fade from 'react-reveal/Fade'
 function App() {
   return (
     <div>
+      <Navigationbar />
       <br />
       <Fade>
         <IntroduceCard />
@@ -33,7 +33,7 @@ function App() {
         <ShowCase /> 
       </Fade>
       <br /> <hr className="mt-1 mb-1"/> <br />
-
+      <Footer />
     </div>
   );
 }
