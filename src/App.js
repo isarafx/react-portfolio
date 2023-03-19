@@ -1,19 +1,16 @@
 import './App.css';
 import { motion } from "framer-motion"
-import IntroduceCard from './components/IntroduceCard';
+import IntroduceCard from './components/index/IntroduceCard';
 import Navigationbar from './components/Navigationbar';
-import { Parallax, ParallaxLayer} from '@react-spring/parallax'
-import AboutMe from './components/AboutMe';
-import CarouselFade from './components/CarouselFade';
-import ProgressStep from './components/ProgressStep';
+import Mystack from './components/index/MyStack';
+import ShowCase from './components/index/ShowCase';
 import Footer from './components/Footer';
-import Work from './components/Work';
-import Internship from './components/Internship';
+import Work from './components/index/Work';
+import Timeline from './components/index/Timeline';
 import Fade from 'react-reveal/Fade'
 function App() {
   return (
     <div>
-        <Navigationbar />
       <br />
       <Fade>
         <IntroduceCard />
@@ -21,11 +18,11 @@ function App() {
       <br/ >
       <br />
       <Fade>
-        <Internship />
+        <Timeline />
       </Fade>
       <br /> <hr className="mt-1 mb-1"/> <br />
       <Fade>
-        <AboutMe />
+        <Mystack />
       </Fade>
       <br /> <hr className="mt-1 mb-1"/> <br />
       <Fade>
@@ -33,10 +30,9 @@ function App() {
       </Fade>
       <br /> <hr className="mt-1 mb-1"/> <br />
       <Fade>
-        <CarouselFade /> {/* Internship */}
+        <ShowCase /> 
       </Fade>
       <br /> <hr className="mt-1 mb-1"/> <br />
-        <Footer />
 
     </div>
   );
