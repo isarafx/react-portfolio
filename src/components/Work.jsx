@@ -66,16 +66,16 @@ const Work = () => {
       <div className="container content-space-t-4 content-space-b-3">
         <h2 className='text-center workcard'>Other works</h2>
           <div className='row'>
-            <div className='col-md-6 col-lg-3 workcard'>
+            <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
               <WorkCard pic={card1} title="Crypto GUI" desc="Crpyto GUI connect to bx.com written in JavaFX" />
             </div>
-            <div className='col-md-6 col-lg-3 workcard'>
+            <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
               <WorkCard pic={card2} title="Oscillo GUI" desc="GUI Controlling Oscilloscope with Python/Tkinter" />
             </div>
-            <div className='col-md-6 col-lg-3 workcard'>
+            <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
               <WorkCard pic={card3} title="Bookstore" desc="Somsri's Bookstore web application written in Django" />
             </div>
-            <div className='col-md-6 col-lg-3 workcard'>
+            <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
               <WorkCard pic={card3} title="ETC" desc="Somsri's Bookstore web application written in Django" />
             </div>
           </div>

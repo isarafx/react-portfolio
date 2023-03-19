@@ -16,7 +16,7 @@ import picture14 from '../assets/a14.jpg'
 import picture15 from '../assets/a15.jpg'
 import picture16 from '../assets/a15.5.jpg'
 import picture17 from '../assets/a16.jpg'
-import picture18 from '../assets/a16.jpg'
+import picture18 from '../assets/a17.jpg'
 import { useState } from 'react';
 function CarouselFade() {
   const [picSelect, setPicSelect] = useState(0)
@@ -37,20 +37,17 @@ function CarouselFade() {
     <div className="container content-space-t-4 content-space-b-3">
         <h2 className='text-center'>Showcase</h2>
         <br />
-        <Carousel fade variant="dark">
+        <Carousel fade variant="dark">  {/* Too buggy to loop  */}
           <Carousel.Item>
             <img
               className="d-block w-100"
               src={show1}
               alt="Second slide"
             />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={show2}
-              alt="Second slide"
-            />
+            <Carousel.Caption>
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -58,6 +55,10 @@ function CarouselFade() {
               src={picture1}
               alt="Second slide"
             />
+            <Carousel.Caption>
+              <h3>Lecturer at MU</h3>
+              <p>Teaching basic Python on Django Course</p>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -72,6 +73,9 @@ function CarouselFade() {
               src={picture3}
               alt="Second slide"
             />
+            <Carousel.Caption>
+              <h3>TA on Django Course</h3>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -79,6 +83,9 @@ function CarouselFade() {
               src={picture4}
               alt="Second slide"
             />
+            <Carousel.Caption>
+              <h3>Internship at Stackpython</h3>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -86,6 +93,9 @@ function CarouselFade() {
               src={picture9}
               alt="Second slide"
             />
+            <Carousel.Caption>
+              <h3>TA on Django Heroku Deploy</h3>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -93,18 +103,35 @@ function CarouselFade() {
               src={picture10}
               alt="Second slide"
             />
+            <Carousel.Caption>
+              <h3>TA on Django Heroku Deploy</h3>
+            </Carousel.Caption>
           </Carousel.Item>
+          
           <Carousel.Item>
             <img
               className="d-block w-100"
               src={picture11}
               alt="Second slide"
             />
+            <Carousel.Caption>
+              <h3>TA on Django Heroku Deploy</h3>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
               src={picture12}
+              alt="Second slide"
+            />
+            <Carousel.Caption>
+              <h3>TA on Django Heroku Deploy</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={show2}
               alt="Second slide"
             />
           </Carousel.Item>
@@ -114,6 +141,9 @@ function CarouselFade() {
               src={picture13}
               alt="Second slide"
             />
+            <Carousel.Caption>
+              <h3>Basic Network Training by Aruba</h3>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -121,6 +151,9 @@ function CarouselFade() {
               src={picture14}
               alt="Second slide"
             />
+            <Carousel.Caption>
+              <h3>Basic Network Training by Aruba</h3>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -128,6 +161,9 @@ function CarouselFade() {
               src={picture15}
               alt="Second slide"
             />
+            <Carousel.Caption>
+              <h3>Basic Network Training by Aruba</h3>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -135,9 +171,9 @@ function CarouselFade() {
               src={picture16}
               alt="Second slide"
             />
-          </Carousel.Item>
-          <Carousel.Item>
-          <iframe width="1280" height="720"  src="https://www.youtube.com/embed/-EsQLGhgBaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <Carousel.Caption>
+              <h3>TA on Django REST/React at GSB</h3>
+            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -152,6 +188,14 @@ function CarouselFade() {
               src={picture18}
               alt="Second slide"
             />
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className='video-container'>
+              <iframe height="1280" width="720" className="responsive-iframe" src="https://www.youtube.com/embed/-EsQLGhgBaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <Carousel.Caption>
+              <h3>My intro video editing</h3>
+            </Carousel.Caption>
           </Carousel.Item>
           
         </Carousel>
