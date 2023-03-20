@@ -28,7 +28,7 @@ const Work = () => {
         <div className="row">
           <div className="col-sm-12 position-relative">
           <h2 className='text-center workcard'>My classwork</h2>
-            <a href='/work/covfefe' target="_blank">
+            <a href='https://covfefe-react.vercel.app/' target="_blank">
               <div className="card card-portfolio shadow-lg ">
                 <div className="card-img">
                   <img src={picture} className="img-fluid" alt="Covfefe" />
@@ -52,16 +52,16 @@ const Work = () => {
         <h2 className='text-center workcard'>Other works</h2>
           <div className='row'>
             <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
-              <WorkCard pic={card1} title="Crypto GUI" href="/work/crypto" alt="crypto work" />
+              <WorkCard pic={card1} title="ESP32 Datalogger" href="https://www.youtube.com/watch?v=Etpgy0ilKz0" alt="crypto work" />
             </div>
             <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
-              <WorkCard pic={card2} title="Oscillo GUI" href="/work/oscilloscope" alt="oscillo scope work"  />
+              <WorkCard pic={card2} title="Oscillo GUI" href="https://github.com/isarafx/Signal-Final-Project" alt="oscillo scope work"  />
             </div>
             <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
-              <WorkCard pic={card3} title="Bookstore" href="/work/somsri" alt="book store site"  />
+              <WorkCard pic={card3} title="Bookstore" href="https://github.com/ButterFine/database-final-project" alt="book store site"  />
             </div>
             <div className='col-md-6 col-lg-3 col-sm-12 workcard'>
-              <WorkCard pic={card4} title="ETC" href="/work/portfolio" alt="portfolio site"  />
+              <WorkCard pic={card4} title="Equalizer" href="https://github.com/isarafx/equalizer_tkinter" alt="portfolio site"  />
             </div>
           </div>
       </div>

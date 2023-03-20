@@ -143,7 +143,7 @@ function ShowCase() {
               alt="Second slide"
             />
             <Carousel.Caption>
-              <h5 style={{backgroundColor: 'rgba(255, 255, 255, 0.7)'}}>TA on Django REST/React at GSB</h5>
+              <h5 style={{backgroundColor: 'rgba(255, 255, 255, 0.7)'}}>TA on Django REST at GSB</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -153,7 +153,7 @@ function ShowCase() {
               alt="Second slide"
             />
             <Carousel.Caption>
-              <h5 style={{backgroundColor: 'rgba(255, 255, 255, 0.7)'}}>TA on Django REST/React at GSB</h5>
+              <h5 style={{backgroundColor: 'rgba(255, 255, 255, 0.7)'}}>TA on Django REST at GSB</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -161,7 +161,7 @@ function ShowCase() {
               <iframe className="responsive-iframe" src="https://www.youtube.com/embed/-EsQLGhgBaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <Carousel.Caption>
-              <h5 style={{backgroundColor: 'rgba(255, 255, 255, 0.7)'}}>My intro video editing</h5>
+              <h5 style={{backgroundColor: 'rgba(255, 255, 255, 0.7)'}}>My video editing work</h5>
             </Carousel.Caption>
           </Carousel.Item>
           
@@ -171,3 +171,5 @@ function ShowCase() {
 }
 
 export default ShowCase;
+
+

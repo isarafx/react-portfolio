@@ -6,11 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutMe from './components/AboutMe';
-import Oscilloscope from './components/post/Oscilloscope';
-import PortfolioSite from './components/post/PortfolioSite';
-import Covfefe from './components/post/Covfefe';
-import SomsriBook from './components/post/SomsriBook';
-import CryptoGUI from './components/post/CryptoGUI';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createBrowserRouter([
@@ -18,26 +13,6 @@ const router = createBrowserRouter([
   {
     path: "aboutme",
     element: <AboutMe />,
-  },
-  {
-    path: "/work/covfefe",
-    element: <Covfefe />,
-  },
-  {
-    path: "/work/crypto",
-    element: <CryptoGUI />,
-  },
-  {
-    path: "/work/oscilloscope",
-    element: <Oscilloscope />,
-  },
-  {
-    path: "/work/somsri",
-    element: <SomsriBook />,
-  },
-  {
-    path: "/work/portfolio",
-    element: <PortfolioSite />,
   },
   {
     path: "*",

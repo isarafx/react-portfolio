@@ -51,26 +51,18 @@ const IntroduceCard = () => {
                 <div className="mb-5">
                 <span ref={el}></span>
                 <h1 className="display-4 mb-3">Isara K.</h1>
-                <p className="lead">I'm fresh graduate and software developer. 
-                <br />experienced in <span className="language" ref={lang}></span>
-                <br />Currently looking for web development career</p>
+                <p className="lead">I am a fresh graduate and software developer 
+                <br />with experience in <span className="language" ref={lang}></span>
+                <br />Currently, I am looking for a career in web development.</p>
                 </div>
-                {/* End Heading */}
-                {/* <div className="d-grid d-sm-flex gap-3">
-                <a className="btn btn-primary btn-transition" href="#caseStudies">Case studies</a>
-                <a className="btn btn-link" href="#">Learn more <i className="bi-chevron-right small ms-1" /></a>
-                </div> */}
             </div>
-            {/* End Col */}
             <div className="col-md-6">
                 <div className="position-relative">
                 <Fade><img className="img-fluid rounded-2" src={photo} alt="Image Description" /></Fade>
                 <div className="position-absolute top-0 end-0 w-100 h-100 bg-soft-primary rounded-2 zi-n1 mt-5 me-n5" />
                 </div>
             </div>
-            {/* End Col */}
             </div>
-            {/* End Row */}
         </div>
     </div>
   )

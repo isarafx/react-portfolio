@@ -9,8 +9,7 @@ const Timeline = () => {
             date:"Sep 1999 - Present",
             responsibility:
             ["INFP Virgo",
-                "Hi I'm Isara Kunudomchaiwat, born and raised in Bangkok Thailand I'm 23 INFP I've broad knowledge especially on IOT but currently interesting in web developments. I used python for a long time now It's my main programing language but I don't mind leaning new things",
-            "-Isara"
+                "Greetings, my name is Isara Kunudomchaiwat. I am a 23-year-old INFP who was born and raised in Bangkok, Thailand. I am currently interested in web development. My proficiency lies in Python, which has been my primary programming language for a substantial duration. However, I am open to learning new technologies and programming languages to expand my skillset."
             ],
             tag:["Guitarist", "chess", "Basic electrical", "Cooking", "Seafood allergic", "INFP", "Virgo"],
         },
@@ -19,11 +18,11 @@ const Timeline = () => {
             date:"Nov 2019 - July 2020",
             responsibility:
             [
-                "Responsibility :",
-            "-Deploy an monitor Stackpython site",
-            "-Edit programing tutorial video",
-            "-Share knowledge by writing an programing article",
-            "-Teaching assistant"],
+                "Responsibilities:",
+            "-Deploying and monitoring the Stackpython site.",
+            "-Editing programming tutorial videos.",
+            "-Sharing knowledge through programming articles.",
+            "-Assisting with teaching."],
             tag:['Django', "Digital Ocean", "Nginx", "Python", "HTML", "CSS", "JS"],
         },
         3:
@@ -32,11 +31,10 @@ const Timeline = () => {
             date:"Aug 2020 - Present",
             responsibility:
             [
-            "Responsibility :",    
-            "-Deploy an monitor Customer site",
-            "-Lecturer, Teaching assistant",
-            "-Share knowledge by writing an programing article",
-            "-Develope program from customer requirements"],
+            "Responsibilities:",    
+            "-Deploying and monitoring customer sites.",
+            "-Lecturing and assisting with teaching.",
+            "-Developing programs based on customer requirements."],
             tag:['Django', "FastAPI", "GIT", "Docker", "Digital Ocean", "Nginx", "Python", "HTML", "CSS", "JS"],
         },
     }
