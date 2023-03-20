@@ -30,7 +30,7 @@ const AboutMe = () => {
         <h2>Work Experience</h2>
           <br />
           <h3>Internship</h3>
-            <h4>Stackpython (2019-present)</h4>
+            <h4>Stackpython (2019-2020)</h4>
               <ul>
                 <li>Article writer, Video Editor</li>
                 <li>Deploy and maintain website</li>
