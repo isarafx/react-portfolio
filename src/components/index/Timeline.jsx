@@ -37,6 +37,26 @@ const Timeline = () => {
             "-Developing programs based on customer requirements."],
             tag:['Django', "FastAPI", "GIT", "Docker", "Digital Ocean", "Nginx", "Python", "HTML", "CSS", "JS"],
         },
+        4:
+        {
+            title:"My Senior Project",
+            date:"2023",
+            responsibility:
+            [
+            "-Covfefe, guidance for slow-bar coffee lover",
+            <a href="https://covfefe-react.vercel.app" target='_blank'>Covfefe</a>],
+            tag:['React', 'NoSQL', 'FastAPI', 'BootStrap', 'JWT', 'PWA'],
+        },
+        5:
+        {
+            title:"Lecturer at MU",
+            date:"8-10 Febuary 2023",
+            responsibility:
+            [
+            "-Lecturer of Basic Python in the Django web development course at MU with the Stackpython Team.",    
+            <a href="https://mahidol.ac.th/th/2023/webmaster-trainning2023/" target='_blank'>ref</a> ],
+            tag:['Basic Python', 'Mahidol University'],
+        },
     }
     const [info, setInfo] = useState(detail[1])
   return (
@@ -49,6 +69,10 @@ const Timeline = () => {
                     <a className='tagwork' href='javascript:;' onClick={()=>{setInfo(detail[2])}}><li className='tagwork'>Intership at Stackpython</li></a>
                    
                     <a className='tagwork' href='javascript:;' onClick={()=>{setInfo(detail[3])}}><li className='tagwork'>Freelance with Stackpython Team</li></a>
+
+                    <a className='tagwork' href='javascript:;' onClick={()=>{setInfo(detail[4])}}><li className='tagwork'>My Senior Project</li></a>
+
+                    <a className='tagwork' href='javascript:;' onClick={()=>{setInfo(detail[5])}}><li className='tagwork'>Lecturer at MU</li></a>
                     
                 </ul>
             </div>

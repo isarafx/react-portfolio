@@ -12,27 +12,29 @@ function App() {
     <div>
       <Navigationbar />
       <br />
-      <Fade>
-        <IntroduceCard />
-      </Fade>
-      <br/ >
-      <br />
-      <Fade>
-        <Timeline />
-      </Fade>
-      <br /> <hr className="mt-1 mb-1"/> <br />
-      <Fade>
-        <Mystack />
-      </Fade>
-      <br /> <hr className="mt-1 mb-1"/> <br />
-      <Fade>
-        <Work />
-      </Fade>
-      <br /> <hr className="mt-1 mb-1"/> <br />
-      <Fade>
-        <ShowCase /> 
-      </Fade>
-      <br /> <hr className="mt-1 mb-1"/> <br />
+      <div className='maindiv'>
+        <Fade>
+          <IntroduceCard />
+        </Fade>
+        <br/ >
+        <br />
+        <Fade>
+          <Timeline />
+        </Fade>
+        <br /> <hr className="mt-1 mb-1"/> <br />
+        <Fade>
+          <Mystack />
+        </Fade>
+        <br /> <hr className="mt-1 mb-1"/> <br />
+        {/* <Fade>
+          <Work />
+        </Fade> */}
+        {/* <br /> <hr className="mt-1 mb-1"/> <br /> */}
+        <Fade>
+          <ShowCase /> 
+        </Fade>
+        <br /> <hr className="mt-1 mb-1"/> <br />
+      </div>
       <Footer />
     </div>
   );
